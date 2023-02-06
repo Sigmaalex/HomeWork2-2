@@ -135,7 +135,7 @@ public class Main {
         int raznicaGodKristina = newGodZpKristina - godZpKristina;
              System.out.println("Маша теперь получает "+ newZpMasha + " рублей. Годовой доход вырос на " + raznicaGodMasha+ " рублей.");
              System.out.println("Денис теперь получает "+ newZpDenis + " рублей. Годовой доход вырос на " + raznicaGodDenis+ " рублей.");
-             System.out.println("Кристина теперь получает "+ newZpKristina + " рублей. Годовой доход вырос на " + raznicaGodKristina+ " рублей.");
+             System.out.println("Кристина теперь получает "+ newZpKristina + " рублей. Годовой доход вырос на " + raznicaGodKristina + " рублей.");
     }
 
     }
