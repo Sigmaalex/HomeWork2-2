@@ -15,6 +15,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1() {
@@ -110,11 +111,31 @@ public class Main {
         float pohudenieMax = 500;
         short dayMin = (short) (weigtGramm / pohudenieMin);
         short dayMax = (short) (weigtGramm / pohudenieMax);
-        System.out.println("При потере 250 гр в день похудение зайиет - " + dayMin + " дней.");
-        System.out.println("При потере 500 гр в день похудение зайиет - " + dayMax + " дней.");
+        System.out.println("При потере 250 гр в день похудение займет - " + dayMin + " дней.");
+        System.out.println("При потере 500 гр в день похудение займет - " + dayMax + " дней.");
         short srednee = (short) ( (dayMin + dayMax) /2);
         System.out.println("В среднем, похудение займет - " + srednee + " дней.");
     }
-
+    public static void task8() {
+        System.out.println("Задача 8");
+        int zpMasha = 67760;
+        int zpDenis = 83690;
+        int zpKristina = 76230;
+        int newZpMasha = (int) (zpMasha * 0.10 + zpMasha);
+        int newZpDenis = (int) (zpDenis * 0.1 + zpDenis);
+        int newZpKristina = (int) (zpKristina * 0.1 +zpKristina);
+        int godZpMasha = zpMasha * 12;
+        int godZpDenis = zpDenis * 12;
+        int godZpKristina = zpKristina * 12;
+        int newGodZpMasha = newZpMasha * 12;
+        int newGodZpDenis = newZpDenis * 12;
+        int newGodZpKristina = newZpKristina * 12;
+        int raznicaGodMasha = newGodZpMasha - godZpMasha;
+        int raznicaGodDenis = newGodZpDenis - godZpDenis;
+        int raznicaGodKristina = newGodZpKristina - godZpKristina;
+             System.out.println("Маша теперь получает "+ newZpMasha + " рублей. Годовой доход вырос на " + raznicaGodMasha+ " рублей.");
+             System.out.println("Денис теперь получает "+ newZpDenis + " рублей. Годовой доход вырос на " + raznicaGodDenis+ " рублей.");
+             System.out.println("Кристина теперь получает "+ newZpKristina + " рублей. Годовой доход вырос на " + raznicaGodKristina+ " рублей.");
+    }
 
     }
